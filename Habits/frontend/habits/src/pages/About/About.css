@@ -1,0 +1,66 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: inherit;
+    position: relative;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.about h3 {
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.about p {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.about div {
+    width: 90%;
+}
+
+.mern {
+    margin-top: 20px;
+    max-width: 600px;
+    width: 60%;
+    border-radius: 50px;
+}
+
+.contacts {
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.contacts p {
+    color: bisque;
+}
+
+.socialMedia {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.socialMedia:hover {
+   box-shadow: gold 0px 5px 5px;
+}
+
+.contacts .socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

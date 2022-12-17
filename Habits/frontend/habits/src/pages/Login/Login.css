@@ -1,0 +1,98 @@
+.loginPage {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #003973;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loginContainer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 1em;
+    min-width: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 30px 20px;
+    gap: 1em;
+}
+
+.loginContainer:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.loginContainer h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 2em;
+}
+
+.formEntry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formEntry input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    font-size: 1.2em;
+}
+
+.formContainer button {
+    display:inline-block;
+    padding:0.7em 1.7em;
+    border-radius: 1em;
+    border: 2px solid grey;
+    text-decoration:none;
+    font-weight:400;
+    background-color: #E5E5BE;
+    text-align:center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.formContainer button:hover {
+    color: white;
+    background-color:#003973;
+    border: 2px solid white;
+}
+
+.error {
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    background-color: rgb(226, 2, 2);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.sucesso {
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    background-color: rgb(55, 196, 0);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}

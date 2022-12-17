@@ -1,0 +1,235 @@
+.dashboardPage {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileContainer {
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+
+.profileContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.profileContainer h2 {
+    color:  #003973;
+    font-size: 3em;
+    margin-top: 40px;
+}
+.profileContainer img {
+    width: 60%;
+    max-width: 400px;
+}
+
+.profileContainer a {
+    background-color: rgba(0, 225, 255, 0.575);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.profileContainer a:hover {
+    border: 2px solid black;
+    background-color: goldenrod;
+    box-shadow: 0px 10px 5px #888888;
+}
+
+.habitsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.habitsContainer h1 {
+    font-size: 3em;
+    color: #003973;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.habitGrid {
+    margin-top: 20px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+@media only screen and (min-width: 750px) {
+    .habitGrid {
+      grid-template-columns: auto auto auto;
+      row-gap: 50px;
+      column-gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+  .habitGrid {
+    grid-template-columns: auto auto auto auto ;
+    row-gap: 50px;
+    column-gap: 50px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .habitGrid {
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 50px;
+    column-gap: 50px;
+  }
+}
+
+.habitBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    background-color:#E5E5BE;
+    position: relative;
+    padding: 5px 5px;
+    color: #003973;
+}
+
+.habitBox h3 {
+    color: #003973;
+    font-size: 1.5em;
+}
+
+.doneCheck {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+
+.doneCheck input{
+    cursor: pointer;
+    border: 3px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.habitButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+}
+
+.habitScoreContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.deleteButton {
+    cursor: pointer;
+    font-size: 1em;
+    color: red;
+    width: 20px;
+    border-radius: 20%;
+    border: none;
+    background-color: transparent;
+}
+
+.upButton {
+    width: 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: green;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    border-radius: 10%;
+    transform: scale(1.2,1.2);
+}
+
+.downButton {
+    border-radius: 10%;
+    width: 20px;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: rgba(255, 0, 0, 0.6);
+    background-color: transparent;
+    transform: scale(1.5,1.2);
+}
+
+.habitStreak {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.habitStreak img {
+    width: 20px;
+}
+
+
+.habitScore {
+    color: #003973;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.addHabitForm {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.addHabitForm input {
+    outline: none;
+    border: none;
+    background-color: #E5E5BE;
+    border: 2px solid #003973;
+    width: 40%;
+    color:#003973;
+    font-weight: bold;
+    max-width: 300px;
+    min-width: 100px;
+    padding: 10px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.addHabitForm button {
+    background-color: #E5E5BE;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+}
+
+.addHabitForm button:hover {
+    background-color: #003973;
+    color: #E5E5BE;
+}

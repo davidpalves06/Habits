@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageContainer {
+  background: linear-gradient(0deg,#003973 0%,#E5E5BE 100%);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: calc(100vh - 100px);
+}
