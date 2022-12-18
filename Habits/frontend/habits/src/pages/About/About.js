@@ -18,22 +18,22 @@ const About = () => {
       <div className='contacts'>
         <p>If you wish to contact me, you have several links below!</p>
         <div className='socialIcons'>
-          <a href="">
+          <a href="#">
             <img src="facebook.png" alt="Facebook"  className='socialMedia' />
           </a>
-          <a href="">
+          <a href="#">
             <img src="gmail.png" alt="Gmail"  className='socialMedia'/>
           </a>
-          <a href="">
+          <a href="#">
             <img src="twitter.png" alt="Twitter"  className='socialMedia'/>
           </a>
-          <a href="">
+          <a href="#">
             <img src="linkedin.png" alt="Linkedin"  className='socialMedia'/>
           </a>
-          <a href="">
+          <a href="#">
             <img src="github.png" alt="Githubb" className='socialMedia' />
           </a>
-          <a href="">
+          <a href="#">
             <img src="instagram.png" alt="Instagram" className='socialMedia' />
           </a>
         </div>
